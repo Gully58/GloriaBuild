@@ -73,13 +73,13 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Build.data.unityweb",
-                    frameworkUrl: "Build/Build.framework.js.unityweb",
-                    codeUrl: "Build/Build.wasm.unityweb",
+                    dataUrl: "Build/Build.data.gz",
+                    frameworkUrl: "Build/Build.framework.js.gz",
+                    codeUrl: "Build/Build.wasm.gz",
                     streamingAssetsUrl: "StreamingAssets",
-                    companyName: "RealToVirtual3D",
+                    companyName: "DefaultCompany",
                     productName: "GloriaAR",
-                    productVersion: "0.1.0",
+                    productVersion: "0.1",
                     //webglContextAttributes: { "preserveDrawingBuffer": true },
                     // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
                     // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
